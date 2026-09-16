@@ -61,7 +61,7 @@ pip install -r requirements.txt
 #    (see "Notes" below if it is missing).
 
 # 4. Launch the Gradio demo
-python gradio.py
+python app.py
 ```
 
 The UI starts on `http://localhost:7860`.
@@ -70,7 +70,7 @@ The UI starts on `http://localhost:7860`.
 
 ```
 pretrained-models/
-├── gradio.py                # Gradio chat UI, loads local BLOOMZ-396M
+├── app.py                   # Gradio chat UI, loads local BLOOMZ-396M
 ├── model.safetensors        # Model weights (~699 MB, not always in git)
 ├── config.json              # HF model configuration
 ├── generation_config.json   # Default generation parameters
